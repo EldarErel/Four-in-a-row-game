@@ -1,10 +1,8 @@
+import javax.swing.*;
+import java.awt.*;
 /**
  * Buttons panel
  */
-
-import javax.swing.*;
-import java.awt.*;
-
 public class Buttons extends JPanel {
     private final int numOfButtons; // number of buttons to add (should match the number of columns )
     private final JButton[] cmdAdd; // to store the buttons
